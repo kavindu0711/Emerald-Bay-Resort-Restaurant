@@ -107,6 +107,8 @@ const Sidebar = () => {
     // Handle logout logic here
   };
 
+  
+
   return (
     <div style={{ display: 'flex', height: '100vh', /*overflow: 'scroll initial'*/flex: '0 0 300px' }}>
       <CDBSidebar textColor="#fff" backgroundColor="#23395d">
