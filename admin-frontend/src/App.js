@@ -14,6 +14,7 @@ import { VIPRoomBooking } from './components/pages/ReservationManager/VIPRoomBoo
 import { EventManagement } from './components/pages/ReservationManager/EventManagement';
 import { EmployeeManagerProfile } from './components/pages/EmployeeManager/EmployeeManagerProfile';
 import { EmployeeManagerDashboard } from './components/pages/EmployeeManager/EmployeeManagerDashboard';
+import {UpdateProfile} from './components/common/UpdateProfile';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
           <Route exact path="/reservationManager/events" element={<EventManagement />} />
           <Route exact path="/employeeManager" element={<EmployeeManagerDashboard />} />
           <Route exact path="/employeeManager/Profile" element={<EmployeeManagerProfile />} />
+          <Route exact path="/deliveryManager/profile/updateProfile" element={<UpdateProfile />} />
           
         </Routes>
       </div>
