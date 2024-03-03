@@ -48,13 +48,13 @@ export const MyProfile = () => {
           
             <div className="personalinfo">
               {/* Your personal info content */}
-              <label  className="fname">First Name : <span>Iresh</span></label>
-              <label  className="lname">Last Name : <span>Iresh</span></label> 
-              <label  className="nic">NIC : <span>Iresh</span></label> 
-              <label  className="position">Position : <span>Iresh</span></label> 
-              <label  className="mobile">Mobile Number : <span>Iresh</span></label> 
-              <label  className="email">E mail : <span>Iresh</span></label> 
-              <label  className="address">Address : <span>Iresh</span></label> 
+              <label  className="fname">First Name <span className="dot">:</span> <span className='inputdata'>Iresh</span></label>
+              <label  className="lname">Last Name <span className="dot">:</span> <span className='inputdata'>Iresh</span></label> 
+              <label  className="nic">NIC <span className="dot">:</span> <span className='inputdata'>Iresh</span></label> 
+              <label  className="position">Position <span className="dot">:</span> <span className='inputdata'>Iresh</span></label> 
+              <label  className="mobile">Mobile Number <span className="dot">:</span> <span className='inputdata'>Iresh</span></label> 
+              <label  className="email">E mail <span className="dot">:</span> <span className='inputdata'>Iresh</span></label> 
+              <label  className="address">Address <span className="dot">:</span> <span className='inputdata'>Iresh</span></label> 
             </div>
           
           
