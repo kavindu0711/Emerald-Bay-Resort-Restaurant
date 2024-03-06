@@ -12,6 +12,7 @@
     margin-top: 10px;
    
 }
+
 .profilecontainer{
     border: 1px sloid black;
     padding: 10px;
@@ -23,19 +24,42 @@
     margin-top: 65px;
 }
 
+/*
 .personalinfo label{
    
     margin-top: 30px;
     font-size: 25px;
-    justify-self: end; /* Align labels to the end of the grid cell */
-    
+    justify-self: start; /* Align labels to the end of the grid cell */
+    /*
 }
 
-.personalinfo label span{
+.personalinfo label .dot{
     margin-left: 30px;
-    justify-self: start; /* Align spans to the start of the grid cell */
+    justify-self: start; /* Align spans to the start of the grid cell *//*
 }
 
+.personalinfo label .inputdata{
+    justify-self: end;
+}
+*/
+.personalinfo label {
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    grid-column-gap: 10px;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.personalinfo label .dot {
+    margin-left: 30px;
+    justify-self: end;
+}
+
+.personalinfo label .inputdata {
+    margin-left: 30px;
+    justify-self: start;
+}
 
 .personalinfo {
     display: grid;

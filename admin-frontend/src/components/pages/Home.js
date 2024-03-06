@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "../images/EMERALDBAYLOGO.png"
 import "../common/Home.css";
 import Button from 'react-bootstrap/Button';
-import { useNavigate } from 'react-router-dom'; // Import useHistory from react-router-dom
+import { useNavigate } from 'react-router-dom'; 
 import Container from 'react-bootstrap/Container';
 
 import Nav from 'react-bootstrap/Nav';
