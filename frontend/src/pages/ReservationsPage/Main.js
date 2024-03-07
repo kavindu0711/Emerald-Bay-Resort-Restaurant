@@ -9,7 +9,7 @@ export const Main = () => {
       <div style={{backgroundColor:'black'}}>
           
           <NavBar/>
-            <div className="welcome">
+            <div className="main">
                 
             </div>
         </div>
