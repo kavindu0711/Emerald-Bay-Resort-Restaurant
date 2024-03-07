@@ -1,0 +1,27 @@
+.welcome {
+    background-image: url(../images/IMG_9995.jpg);
+    padding: 50px;
+    padding-bottom: 1200px;
+    background-size: cover; /* Adjust the background size */
+    width: 1900px; /* Set the width */
+    height: 600px; /* Set the height */
+    opacity: 0.8;
+}
+
+.welcome h1{
+    padding-top: 250px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+.welcome h3{
+    background-color: black;
+    padding: 20px;
+    opacity: 0.8;
+    margin-top: 300px;
+    color: white;
+    font-weight: 1000;
+    border-radius: 15px;
+}

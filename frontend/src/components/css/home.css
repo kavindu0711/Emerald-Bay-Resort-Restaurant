@@ -10,7 +10,6 @@
     opacity: 0.8;
 }
 
-
 .welcome h1{
     padding-top: 250px;
     color: rgb(255, 255, 255);
@@ -18,7 +17,6 @@
     font-weight: 900;
     font-size: 80px;
 }
-
 
 .welcome h3{
     background-color: black;
@@ -29,6 +27,7 @@
     font-weight: 1000;
     border-radius: 15px;
 }
+
 .aboutsec{
     box-sizing: border-box;
     border: 1px solid black;
@@ -38,7 +37,6 @@
     background-color: bisque;
 }
 
-
 .abouth3{
     font-family: 'Brush Script MT';
     text-align: left;
@@ -46,15 +44,11 @@
     font-weight: 500;
 }
 
-
 .abouth1{
     text-align: left;
     font-weight: 800;
     margin: 40px 0 20px 80px;
 }
-
-
-
   
 .leftsection {
     width: 40%;
@@ -68,14 +62,12 @@
     box-sizing: border-box;
 }
 
-
 .aboutdescription{
     text-align: left;
     margin: 20px 10px 10px 50px;
     font-size: 25px;
     font-weight: 400;
 }
-
 
 .rightsection img{
     margin-top: 50px;
@@ -148,7 +140,6 @@
     padding: 10px 20px;
 }
 
-
 .reviewtype h2{
     color: white;
     font-weight: 600;
@@ -165,7 +156,6 @@
     padding: 10px 20px;
     color: white;
 }
-
 
 /*gmap*/
 .gmapframe, #gmapcanvas{
@@ -204,7 +194,6 @@
     
 }
 
-
 .boder{
     border: 15px solid white;
     width: 200px;
@@ -222,4 +211,3 @@
     padding-top: 15px;
     padding-right: 950px;
 }
-
