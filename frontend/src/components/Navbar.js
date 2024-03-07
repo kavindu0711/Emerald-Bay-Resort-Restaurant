@@ -44,12 +44,9 @@ function NavBar() {
                 Beverages
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#action9"  style={{ fontSize: '22px' }}>
-              Gallery
-            </Nav.Link>
-            <Nav.Link href="#action9"  style={{ fontSize: '22px' }}>
-              Contact
-            </Nav.Link>
+            <Nav.Link href="#action9">Reservations</Nav.Link>
+            <Nav.Link href="#action10">Gallery</Nav.Link>
+            <Nav.Link href="#action11">Contact</Nav.Link>
           </Nav>
          
             <Button variant="outline-success"  style={{ fontSize: '25px' }}>Order Online</Button>

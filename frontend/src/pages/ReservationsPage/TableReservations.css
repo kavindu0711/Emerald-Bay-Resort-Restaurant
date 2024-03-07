@@ -1,0 +1,46 @@
+/* TableReservationContainer.css */
+
+.reservation-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .reservation-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .reservation-form input[type="text"],
+  .reservation-form input[type="date"],
+  .reservation-form input[type="time"],
+  .reservation-form input[type="number"],
+  .reservation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .reservation-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .reservation-form button:hover {
+    background-color: #45a049;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .reservation-container {
+      width: 90%;
+    }
+  }
+  

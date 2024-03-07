@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
+
+//pages
 import { DeliverRiderDashBoard } from './components/pages/DeliveryRider/DeliverRiderDashBoard';
 import { AdminDashBoard } from "./components/pages/AdminDashBoard";
 import {AdminHome} from "./components/pages/Home";
@@ -16,13 +18,14 @@ import { EmployeeManagerProfile } from './components/pages/EmployeeManager/Emplo
 import { EmployeeManagerDashboard } from './components/pages/EmployeeManager/EmployeeManagerDashboard';
 import {DeliveryManagerUpdateProfile} from './components/pages/DeliveryManager/DeliveryManagerUpdateProfile';
 
+
+
 function App() {
-
-
   return (
     <Router>
       <div className="App">
         <Routes>
+          
           <Route path='/delivery' element={<DeliverRiderDashBoard/>}></Route>
           <Route path="/admin" element={<AdminDashBoard />} />
           <Route exact path="/" element={<AdminHome />} />
