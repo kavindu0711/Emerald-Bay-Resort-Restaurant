@@ -10,6 +10,19 @@ const handleSave = () =>{
   navigate('/deliveryManager/profile')
 }
 
+const handleDelete = () => {
+ 
+  // Display confirmation dialog
+  const isConfirmed = window.confirm("Are you sure you want to delete the Account?");
+
+  if(isConfirmed){
+    navigate("/")
+
+    /*logic for delete the account*/
+  }
+  
+}
+
   return (
     <div className='updateprofiledashboard'>
         <Sidebar />
@@ -28,7 +41,7 @@ const handleSave = () =>{
 
               <div className="buttons">
               <button className='submit' onClick={handleSave}>Save</button>
-              <button className='delete'>Delete Account</button>
+              <button className='delete' onClick={handleDelete}>Delete Account</button>
               
               </div>
             </form>
