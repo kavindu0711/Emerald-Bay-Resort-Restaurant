@@ -5,7 +5,7 @@ import { MyProfile } from '../../common/MyProfile.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserPen } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
-import '../../common/UpdateProfile.css';
+import './DeliveryManagerUpdateProfile.css';
 
 
 export const DeliveryManagerProfile = () => {

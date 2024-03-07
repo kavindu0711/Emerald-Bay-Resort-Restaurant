@@ -1,0 +1,88 @@
+.updateprofiledashboard{
+    display: flex;
+}
+
+.updateprofilecontainer{
+    width: 80%;
+    margin-top: 50px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 200px;
+    padding-right: 50px;
+    margin-left: 350px;
+  
+}
+
+.updateform{
+   display:grid;
+   margin-left: 250px;
+   background-color: rgb(7, 6, 65);
+   color: rgb(255, 255, 255);
+   padding: 20px;
+}
+
+.updateform label{
+    margin-top: 15px;
+    justify-self: start;
+}
+.updateform label input{
+    margin-left: 25px;
+    justify-self: end;
+}
+
+.updateform {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Two columns, first column auto size, second column takes the remaining space */
+    gap: 50px; /* Gap between rows and columns */
+    margin-bottom: 50px;
+  }
+  
+  .updateform label {
+    justify-self: start; /* Align labels to the end of their column */
+    align-self: center; /* Center-align labels vertically */
+  }
+  
+  .updateform label input {
+    margin-left: 0; /* Remove the left margin for inputs */
+    justify-self: start; /* Align inputs to the start of their column */
+    width: 100%; /* Occupy full width of their column */
+  }
+  
+
+  .buttons button{
+    display: block;
+    margin-top: 20px;
+    margin-right: 30px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .buttons{
+    position:relative;
+    margin-right:200px ;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .submit{
+    background-color: yellow;
+    color: black;
+    font-weight: 500;
+    
+  }
+
+  .delete{
+    background-color: brown;
+    font-weight: 500;
+  }
+
+  .delete:hover{
+    background-color: rgb(211, 27, 27);
+  }
+
+  .submit:hover{
+    background-color: rgb(255, 204, 2);
+  }

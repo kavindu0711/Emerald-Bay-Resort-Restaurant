@@ -1,3 +1,7 @@
 .dashboard-container {
     display: flex;
 }
+
+.myprofile{
+    margin-left: 200px;
+}

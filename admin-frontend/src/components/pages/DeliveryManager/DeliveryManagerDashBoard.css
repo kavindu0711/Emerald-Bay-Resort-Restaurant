@@ -7,6 +7,9 @@
     display: flex;
 }
   
+.deliverymanagercontainer{
+    margin-left: 250px;
+}
 .orderset {
     display: flex;
     justify-content: space-between; /* Distribute items evenly */

@@ -110,7 +110,7 @@ const Sidebar = () => {
   
 
   return (
-    <div style={{ display: 'flex', height: '100vh', /*overflow: 'scroll initial'*/flex: '0 0 300px' }}>
+    <div style={{ display: 'flex', height: '120vh', /*overflow: 'scroll initial'*/flex: '0 0 300px', position:'fixed' }}>
       <CDBSidebar textColor="#fff" backgroundColor="#23395d">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <div className="avatar">
@@ -148,7 +148,7 @@ const Sidebar = () => {
         </CDBSidebarContent>
 
         <CDBSidebarFooter style={{ textAlign: 'center' }}>
-          <div style={{ padding: '20px 5px', textDecoration: 'none' }}>
+          <div style={{ padding: '20px 5px', textDecoration: 'none', marginBottom:'150px' }}>
             <NavLink exact to="/" activeClassName="activeClicked">
               <FontAwesomeIcon icon={faSignOutAlt} style={{color: "#ffffff"}} />
               <CDBSidebarMenuItem style={{color:'white', textDecoration: 'none'}}>Sign Out</CDBSidebarMenuItem>

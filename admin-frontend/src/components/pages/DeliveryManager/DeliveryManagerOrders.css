@@ -43,6 +43,10 @@
     color: white;
     opacity: 0.8;   
 }
+
+.orderdash{
+    margin-left: 200px;
+}
   
 .completeordercard{
     opacity: 0.8;
