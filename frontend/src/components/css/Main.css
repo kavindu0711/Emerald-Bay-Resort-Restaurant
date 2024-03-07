@@ -1,4 +1,4 @@
-.welcome {
+.main {
     background-image: url(../images/IMG_9995.jpg);
     padding: 50px;
     padding-bottom: 1200px;
@@ -8,7 +8,7 @@
     opacity: 0.8;
 }
 
-.welcome h1{
+/*.main h1{
     padding-top: 250px;
     color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -16,7 +16,7 @@
     font-size: 80px;
 }
 
-.welcome h3{
+.main h3{
     background-color: black;
     padding: 20px;
     opacity: 0.8;
@@ -24,4 +24,4 @@
     color: white;
     font-weight: 1000;
     border-radius: 15px;
-}
+}*/

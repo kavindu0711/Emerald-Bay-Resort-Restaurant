@@ -1,7 +1,7 @@
 import '../../App.css';
 import NavBar from '../../components/Navbar';
 import React, { useState } from 'react';
-import './OutsideReservations.css'; // Import CSS for styling
+import '../../components/css/OutsideReservations.css'; // Import CSS for styling
 
 
 
