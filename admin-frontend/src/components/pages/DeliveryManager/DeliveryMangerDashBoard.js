@@ -16,7 +16,6 @@ export const DeliverRiderDashBoard = () => {
 import React from 'react';
 import DeliveryManagerSideBar from './DeliveryManagerSideBar.js';
 import  "../../../components/pages/DeliveryManager/DeliveryManagerDashBoard.css";
-import deliverylorry from "../../images/deliverylorry.png";
 import succesimg from "../../images/successmark.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser,faTruckFast } from '@fortawesome/free-solid-svg-icons';
@@ -27,7 +26,7 @@ export const DeliveryManagerDashBoard = () => {
   return (
     <div className="dashboard-container">
       <DeliveryManagerSideBar />
-      <div className="deliveryridercontainer">
+      <div className="deliverymanagercontainer">
         
         <div className="orderset">
           <div className="succes">

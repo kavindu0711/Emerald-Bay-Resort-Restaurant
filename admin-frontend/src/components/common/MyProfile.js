@@ -48,6 +48,7 @@ export const MyProfile = () => {
           
             <div className="personalinfo">
               {/* Your personal info content */}
+              <label  className="fname">Employee ID <span className="dot">:</span> <span className='inputdata'>Iresh</span></label>
               <label  className="fname">First Name <span className="dot">:</span> <span className='inputdata'>Iresh</span></label>
               <label  className="lname">Last Name <span className="dot">:</span> <span className='inputdata'>Iresh</span></label> 
               <label  className="nic">NIC <span className="dot">:</span> <span className='inputdata'>Iresh</span></label> 
